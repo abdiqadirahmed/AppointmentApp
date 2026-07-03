@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-this-in-production-xyz123')
 DEBUG = config('DEBUG', default=True, cast=bool)
-ALLOWED_HOSTS = ['44.204.111.130/','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['44.204.111.130/8000']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
